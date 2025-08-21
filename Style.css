@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <style>
+    /* ======== CONTAINER PRINCIPAL ======== */
+    .container {
+      max-width: 900px;                 
+      margin: 40px auto;                
+      background: #fff;                 
+      padding: 30px;                    
+      box-shadow: 0 4px 10px rgba(0,0,0,.1); 
+      border-radius: 10px;              
+      font-family: Arial, sans-serif;
+    }
+    
+    /* ======== CABEÇALHO (foto + nome + contatos) ======== */
+    .header {
+      text-align: center;               
+      margin-bottom: 20px;              
+    }
+    
+    .header img {
+      width: 150px;                     
+      height: 150px;                    
+      object-fit: cover;                
+      border-radius: 50%;               
+      border: 3px solid #dd69d5;        
+    }
+    
+    .header h1 {
+      margin: 15px 0 5px;               
+      color: #dd69d5;                   
+    }
+    
+    .header p {
+      margin: 2px 0;                    
+      color: #555;                      
+    }
+    
+    /* ======== TÍTULOS DE SEÇÃO ======== */
+    h2 {
+      color: #000000;                   
+      border-bottom: 2px solid #000000; 
+      padding-bottom: 5px;              
+      margin-top: 30px;                 
+    }
+    
+    /* ======== TEXTO ======== */
+    p,
+    li {
+      text-align: justify;              
+      line-height: 1.6;                 
+    }
+    
+    /* ======== LISTAS ======== */
+    ul {
+      list-style: none;                 
+      padding: 0;                       
+    }
+    
+    ul li::before {
+      content: "• ";                    
+      color: #6b1365;                   
+      font-weight: bold;                
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <div class="header">
+      <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+      <h1>Seu Nome</h1>
+      <p>Idade: 20 anos</p>
+      <p>Cidade: Recife - PE</p>
+      <p>Email: exemplo@email.com</p>
+    </div>
+
+    <!-- Sobre -->
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou uma pessoa dedicada, apaixonada por tecnologia e com grande interesse em aprender novas habilidades.
+    </p>
+
+    <!-- Formação -->
+    <h2>Formação</h2>
+    <ul>
+      <li>Ensino Médio Completo</li>
+      <li>Curso Técnico em Informática</li>
+    </ul>
+
+    <!-- Experiência -->
+    <h2>Experiência</h2>
+    <ul>
+      <li>Estágio em Suporte Técnico - Empresa X</li>
+      <li>Atendimento ao Cliente - Empresa Y</li>
+    </ul>
+
+    <!-- Habilidades -->
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML, CSS e JavaScript</li>
+      <li>Boa comunicação</li>
+      <li>Trabalho em equipe</li>
+    </ul>
+  </div>
+</body>
+</html>
